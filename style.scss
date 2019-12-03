@@ -1,0 +1,54 @@
+.window {
+    width: 33%;
+    min-width: 250px;
+    margin: 30vh auto;
+    border: 1px solid lightgray;
+}
+
+.logo {
+    background-color: black;
+    img {
+        margin: 10px 10px 2px 10px;
+    }
+}
+
+input {
+    display: block;
+    width: 75%;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+form {
+    text-align: center;
+    button {
+    width: 76.5%;
+    margin-bottom: 10px;
+    }
+}
+
+// project site
+
+#side-menu, #map {
+    padding: 0;
+}
+
+#menu {
+    padding: 10px 15px 0 15px ;
+    li {
+        padding: 10px 0;
+    }
+}
+
+iframe {
+    width: 100%;
+    height: 99vh;
+}
+
+// added
