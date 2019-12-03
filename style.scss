@@ -35,6 +35,11 @@ form {
 
 // project site
 
+#side-menu {
+    height: 100vh;
+    border-right: 1.5px solid lightgray;
+}
+
 #side-menu, #map {
     padding: 0;
 }
