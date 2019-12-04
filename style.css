@@ -35,7 +35,7 @@ form {
 #menu {
   padding: 0 15px; }
   #menu .menu-item {
-    padding: 5px 0; }
+    padding: 5px 0 2px 15px; }
 
 iframe {
   width: 100%;
@@ -53,9 +53,6 @@ ul p {
   margin-bottom: 5px; }
 
 .items div, .items iframe {
-  display: none; }
-
-.items div:target ~ #main, .items iframe:target ~ #main {
   display: none; }
 
 .items div:target, .items iframe:target {
