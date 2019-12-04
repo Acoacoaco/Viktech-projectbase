@@ -45,8 +45,8 @@ form {
 }
 
 #menu {
-    padding: 10px 15px 0 15px ;
-    li {
+    padding: 0 15px;
+    .menu-item {
         padding: 5px 0;
     }
 }
@@ -58,6 +58,16 @@ iframe {
 
 .items div {
     margin-left: 10px;
+}
+
+.divider {
+    height: 1.5px;
+    background-color: lightgray;
+}
+
+ul p {
+    font-weight: bold;
+    margin-bottom: 5px;
 }
 
 // change div on menu click
